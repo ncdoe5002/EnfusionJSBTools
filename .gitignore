@@ -1,0 +1,48 @@
+# Binaries and executables
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Intermediate compiler and linker outputs
+*.obj
+*.o
+*.lib
+*.a
+*.exp
+*.ilk
+*.pdb
+*.idb
+
+# Build directories
+build/
+bin/
+out/
+x64/
+x86/
+Debug/
+Release/
+
+# Visual Studio files
+.vs/
+*.sln.docstates
+*.suo
+*.user
+*.userosscache
+*.sln
+*.vcxproj
+*.vcxproj.filters
+
+# VS Code / IDE settings
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs and runtime artifacts
+*.log
+parser.log
+
+# Temporary test outputs
+test_*/
+*.conf
+*.conf.meta
