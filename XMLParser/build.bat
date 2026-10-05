@@ -1,5 +1,6 @@
 @echo off
 setlocal
+cd /d "%~dp0"
 
 :: Check if cl.exe is already in PATH (e.g. Developer Command Prompt)
 where cl.exe >nul 2>nul
